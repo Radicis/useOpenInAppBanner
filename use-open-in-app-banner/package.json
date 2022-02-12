@@ -1,11 +1,9 @@
 {
-  "name": "use-custom-hook",
+  "name": "use-open-in-app-banner",
   "version": "1.1.0",
-  "description": "A starter for creating a new React hook",
+  "description": "A hook for showing an Open in App banner in webapps that have a companion mobile app",
   "author": {
-    "name": "Colby Fayock",
-    "email": "hello@colbyfayock.com",
-    "url": "https://twitter.com/colbyfayock"
+    "name": "Radicis"
   },
   "keywords": [
     "react",
@@ -16,7 +14,6 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "bump": "npm version",
-    "example": "cd example && yarn install && yarn package",
     "prepublishOnly": "yarn build",
     "watch": "nodemon --watch src --exec \"yarn build\""
   },
@@ -24,12 +21,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/use-custom-hook"
+    "url": "https://github.com/Radicis/useOpenInAppBanner"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/use-custom-hook/issues"
+    "url": "https://github.com/Radicis/useOpenInAppBanner/issues"
   },
   "dependencies": {
+    "react": "^17.0.2",
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
